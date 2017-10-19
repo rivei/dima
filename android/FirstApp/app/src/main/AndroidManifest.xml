@@ -8,14 +8,19 @@
         android:label="@string/hello"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".app.activities.MainActivity"></activity>
+        <activity android:name=".app.activities.ResultActivity" />
+        <activity android:name=".app.activities.ConstraintActivity">
+        </activity>
+        <activity
+            android:name=".app.activities.MoviesActivity"
+            android:label="@string/title_activity_movies"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>

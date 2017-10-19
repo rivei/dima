@@ -3,4 +3,5 @@
     <string name="hello">Hello!!!</string>
     <string name="click">Click Me</string>
     <string name="click_you">Click You</string>
+    <string name="title_activity_movies">MoviesActivity</string>
 </resources>

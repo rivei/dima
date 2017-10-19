@@ -1,9 +1,11 @@
-package it.polimi.giovanni.firstapp;
+package it.polimi.giovanni.firstapp.app.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import it.polimi.giovanni.firstapp.R;
 
 public class ResultActivity extends AppCompatActivity {
 
