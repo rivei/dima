@@ -11,7 +11,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.List;
+
 import it.polimi.giovanni.firstapp.R;
+import it.polimi.giovanni.firstapp.app.adapters.MovieArrayAdapter;
 import it.polimi.giovanni.firstapp.app.model.Movie;
 
 public class MoviesActivity extends AppCompatActivity {
@@ -19,7 +22,9 @@ public class MoviesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_movies);
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -35,17 +40,13 @@ public class MoviesActivity extends AppCompatActivity {
             }
         });
 
-        //String[] movies = {"Kill Bill", "Interstellar", "Blue Velvet"};
 
-        final Movie[] movies = {new Movie("Kill Bill"),
-                new Movie("Interstellar"),
-                new Movie("Blue Velvet")};
+        final List<Movie> movies = Movie.getMovies();
 
         ListView moviesListView = (ListView) findViewById(R.id.moviesList);
 
-        ArrayAdapter<Movie> moviesArrayAdapter =
-                new ArrayAdapter<>(this,
-                        android.R.layout.simple_list_item_1 , movies);
+
+        MovieArrayAdapter moviesArrayAdapter = new MovieArrayAdapter(this, movies);
         moviesListView.setAdapter(moviesArrayAdapter);
 
         moviesListView.
@@ -54,12 +55,14 @@ public class MoviesActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView,
                                     View view, int i, long l) {
 
-                String movieTitle = movies[i].getTitle();
+                String movieTitle = movies.get(i).getTitle();
                 Toast toast = Toast.makeText(MoviesActivity.this,
                         "Movie "+movieTitle+" was clicked", Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
+
+
 
     }
 
