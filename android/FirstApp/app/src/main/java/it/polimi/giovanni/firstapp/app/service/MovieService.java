@@ -1,12 +1,20 @@
-package it.polimi.giovanni.firstapp.app;
+package it.polimi.giovanni.firstapp.app.service;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.util.MutableBoolean;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import it.polimi.giovanni.firstapp.R;
+import it.polimi.giovanni.firstapp.app.Commons;
+import it.polimi.giovanni.firstapp.app.data.MovieCursor;
 import it.polimi.giovanni.firstapp.app.data.MovieSQLiteRepository;
 import it.polimi.giovanni.firstapp.app.model.Movie;
 import it.polimi.giovanni.firstapp.app.rest.MovieRESTInterface;
+import retrofit2.Call;
+import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -22,6 +30,7 @@ public class MovieService {
     private static MovieService instance;
 
     private MovieService(Context context){
+
         repository = new MovieSQLiteRepository(context);
 
         Retrofit retrofit = new Retrofit.Builder()
@@ -41,6 +50,47 @@ public class MovieService {
         return instance;
     }
 
+    public void getAllMovies(final Callback callback){
+
+        MovieCursor movieCursor = repository.findAll();
+        final int count = movieCursor.getCount();
+
+        final List<Movie> res = new ArrayList<>();
+
+        while(movieCursor.moveToNext()){
+
+            String imdbId = movieCursor.getImdbId();
+            final String userReview = movieCursor.getUserReview();
+            final float userRating = movieCursor.getUserRating();
+
+            final MutableBoolean alreadyFailed = new MutableBoolean(false);
+
+            restInterface.getMovie(imdbId, Commons.apiKey).enqueue(new retrofit2.Callback<Movie>() {
+
+                @Override
+                public void onResponse(Call<Movie> call, Response<Movie> response) {
+                    Movie movie = response.body();
+                    movie.setUserRating(userRating);
+                    movie.setUserReview(userReview);
+                    res.add(movie);
+
+                    if (res.size() == count){
+                        callback.onLoad(res);
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<Movie> call, Throwable t) {
+                    if (alreadyFailed.value == false){
+                        alreadyFailed.value = true;
+                        callback.onFailure();
+                    }
+                }
+            });
+        }
+
+    }
+
 
     private void fillWithDefault(Context context){
         if (repository.findAll().getCount() > 0 )
@@ -58,6 +108,13 @@ public class MovieService {
                     userRatings.getFloat(i, 0.0f),
                     userReviews.getString(i)));
         }
+
+    }
+
+    public interface Callback {
+
+        void onLoad(List<Movie> movies);
+        void onFailure();
 
     }
 
