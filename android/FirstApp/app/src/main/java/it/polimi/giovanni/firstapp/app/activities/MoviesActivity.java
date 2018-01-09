@@ -2,6 +2,8 @@ package it.polimi.giovanni.firstapp.app.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,6 +15,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import it.polimi.giovanni.firstapp.R;
+import it.polimi.giovanni.firstapp.app.adapters.MovieRecyclerAdapter;
 import it.polimi.giovanni.firstapp.app.service.MovieService;
 import it.polimi.giovanni.firstapp.app.adapters.MovieArrayAdapter;
 import it.polimi.giovanni.firstapp.app.model.Movie;
@@ -67,23 +70,13 @@ public class MoviesActivity extends AppCompatActivity {
 
     private void setupListView(){
 
-        ListView moviesListView = (ListView) findViewById(R.id.moviesList);
+        RecyclerView moviesListView = (RecyclerView) findViewById(R.id.moviesList);
 
-
-        MovieArrayAdapter moviesArrayAdapter = new MovieArrayAdapter(this, this.movies);
+        MovieRecyclerAdapter moviesArrayAdapter = new MovieRecyclerAdapter(this.movies, this);
         moviesListView.setAdapter(moviesArrayAdapter);
 
-        moviesListView.
-                setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView,
-                                            View view, int i, long l) {
-                        String movieTitle = movies.get(i).getTitle();
-                        Toast toast = Toast.makeText(MoviesActivity.this,
-                                "Movie "+movieTitle+" was clicked", Toast.LENGTH_SHORT);
-                        toast.show();
-                    }
-                });
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
+        moviesListView.setLayoutManager(gridLayoutManager);
     }
 
 }
