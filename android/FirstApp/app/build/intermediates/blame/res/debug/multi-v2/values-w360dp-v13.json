@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Wei\\Documents\\Polimi\\Lezioni\\Mobile APP\\Ex\\GitHub\\dima\\android\\FirstApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Wei\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\1c8dea139d8e4a00ffef3fa43ca7dc1f\\res\\values-w360dp\\values-w360dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "290",
+                        "endColumns": "54",
+                        "endOffsets": "340"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

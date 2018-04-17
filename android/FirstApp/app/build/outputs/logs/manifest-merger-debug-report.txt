@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\2d983e74aee021343ad840f9800f8d64\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\1c8dea139d8e4a00ffef3fa43ca7dc1f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d6b9f1c92e0524ca70604ee0df8a6fd5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.1.0.aar\b77b261f372a7167a33282de3584d63c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\61efeef5ab7efea6c45f66609b2d78ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\442d410c1c4c07208eea81bd39de4ea1\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:7:5-26:19
+MERGED from [com.android.support:design:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\2d983e74aee021343ad840f9800f8d64\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\2d983e74aee021343ad840f9800f8d64\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\1c8dea139d8e4a00ffef3fa43ca7dc1f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\1c8dea139d8e4a00ffef3fa43ca7dc1f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d6b9f1c92e0524ca70604ee0df8a6fd5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d6b9f1c92e0524ca70604ee0df8a6fd5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.1.0.aar\b77b261f372a7167a33282de3584d63c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.1.0.aar\b77b261f372a7167a33282de3584d63c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\442d410c1c4c07208eea81bd39de4ea1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\442d410c1c4c07208eea81bd39de4ea1\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:10:9-38
+	android:icon
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:12:9-40
+activity#it.polimi.giovanni.firstapp.app.activities.MainActivity
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:13:9-74
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:13:19-62
+activity#it.polimi.giovanni.firstapp.app.activities.ResultActivity
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:14:9-67
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:14:19-64
+activity#it.polimi.giovanni.firstapp.app.activities.ConstraintActivity
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:15:19-68
+activity#it.polimi.giovanni.firstapp.app.activities.MoviesActivity
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:19:13-58
+	android:theme
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:18:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\2d983e74aee021343ad840f9800f8d64\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\2d983e74aee021343ad840f9800f8d64\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\1c8dea139d8e4a00ffef3fa43ca7dc1f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\1c8dea139d8e4a00ffef3fa43ca7dc1f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d6b9f1c92e0524ca70604ee0df8a6fd5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d6b9f1c92e0524ca70604ee0df8a6fd5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.1.0.aar\b77b261f372a7167a33282de3584d63c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.1.0.aar\b77b261f372a7167a33282de3584d63c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\61efeef5ab7efea6c45f66609b2d78ea\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\61efeef5ab7efea6c45f66609b2d78ea\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\442d410c1c4c07208eea81bd39de4ea1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Wei\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\442d410c1c4c07208eea81bd39de4ea1\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wei\Documents\Polimi\Lezioni\Mobile APP\Ex\GitHub\dima\android\FirstApp\app\src\main\AndroidManifest.xml

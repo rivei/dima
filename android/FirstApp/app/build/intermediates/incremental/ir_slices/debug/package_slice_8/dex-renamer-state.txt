@@ -1,0 +1,4 @@
+#Tue Apr 17 16:25:18 CEST 2018
+base.0=C\:\\Users\\Wei\\Documents\\Polimi\\Lezioni\\Mobile APP\\Ex\\GitHub\\dima\\android\\FirstApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
